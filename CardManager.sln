@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardManager.Api", "src\CardManager.Api\CardManager.Api.csproj", "{6E054861-45F0-424E-8515-B528DA143BBC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{29CE9327-AAFC-48F2-AE0E-31DBDB1180D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardManager.Domain", "src\CardManager.Domain\CardManager.Domain.csproj", "{616296C6-D947-488A-9F16-4A462BA8BD1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardManager.Application", "src\CardManager.Application\CardManager.Application.csproj", "{0F6A93CB-9F8E-44E4-987E-3F8CDA643ACE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapters", "Adapters", "{703215CC-281C-4205-AEFE-296ABCB1A9C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardManager.Adapters.EF", "src\CardManager.Adapters.EF\CardManager.Adapters.EF.csproj", "{11FDDDC4-B93F-430F-941A-68523E2ABF3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E054861-45F0-424E-8515-B528DA143BBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E054861-45F0-424E-8515-B528DA143BBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E054861-45F0-424E-8515-B528DA143BBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E054861-45F0-424E-8515-B528DA143BBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{616296C6-D947-488A-9F16-4A462BA8BD1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{616296C6-D947-488A-9F16-4A462BA8BD1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{616296C6-D947-488A-9F16-4A462BA8BD1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{616296C6-D947-488A-9F16-4A462BA8BD1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F6A93CB-9F8E-44E4-987E-3F8CDA643ACE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F6A93CB-9F8E-44E4-987E-3F8CDA643ACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F6A93CB-9F8E-44E4-987E-3F8CDA643ACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F6A93CB-9F8E-44E4-987E-3F8CDA643ACE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11FDDDC4-B93F-430F-941A-68523E2ABF3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11FDDDC4-B93F-430F-941A-68523E2ABF3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11FDDDC4-B93F-430F-941A-68523E2ABF3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11FDDDC4-B93F-430F-941A-68523E2ABF3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{616296C6-D947-488A-9F16-4A462BA8BD1C} = {29CE9327-AAFC-48F2-AE0E-31DBDB1180D3}
+		{0F6A93CB-9F8E-44E4-987E-3F8CDA643ACE} = {29CE9327-AAFC-48F2-AE0E-31DBDB1180D3}
+		{11FDDDC4-B93F-430F-941A-68523E2ABF3D} = {703215CC-281C-4205-AEFE-296ABCB1A9C0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48D017BA-DC59-4C97-A9CE-880DF490DACC}
+	EndGlobalSection
+EndGlobal
